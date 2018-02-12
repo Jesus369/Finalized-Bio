@@ -1,0 +1,114 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #c2ca95;
+  margin-bottom: 3em;
+  padding: 1.5em;
+}
+
+.site_title {
+  color: white;
+  font-family: "Comic Sans MS";
+  font-size: 1.3em;
+}
+
+.register {
+  margin: 0 auto 0 auto;
+  width: 95%;
+}
+
+.users_listings {
+  border: 1px solid #babbb9;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 2em auto 0 auto;
+  padding: 1.5em;
+  width: 90%;
+}
+
+.user {
+  border-bottom: 1px solid black;
+  margin-top: 1em;
+}
+
+/*Show User Page*/
+.showUser_links {
+  width: 95%;
+  margin: 0 auto 0 auto;
+}
+
+.user_info {
+  border: 1px solid #babbb9;
+  display: inline-block;
+  list-style-type: none;
+  margin: 2em 0 0 2em;
+  padding: 2em;
+}
+
+.snippets_listings {
+  border: 1px solid #babbb9;
+  list-style-type: none;
+  margin: 2em auto 0 auto;
+  padding: 1.5em;
+  width: 90%;
+}
+
+.snippet_title {
+  border-bottom: 1px solid #9f9d9d;
+  margin-top: 1em;
+}
+
+/*Delete user page*/
+
+.user_delete {
+  background-color: #e5e7d7;
+  border-radius: 5px;
+  font-family: "Geneva";
+  margin: 0 auto 0 auto;
+  padding: 4em;
+  text-align: center;
+  width: 15%;
+}
+
+.button_request_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.action_button {
+  background-color: #efeded;
+  font-size: .9em;
+  margin-left: .5em;
+}
+
+.action_button:focus {
+  background-color: #efeded;
+  box-shadow: 0 0 .5px 1px #656464;
+  outline: none;
+}
+
+/*Create snippet page*/
+.new_snippet_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.code_text {
+  margin-top: 2em;
+  width: 40%;
+  height: 40VH;
+  outline: none;
+}
