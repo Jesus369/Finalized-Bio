@@ -1,0 +1,111 @@
+body {
+  width: 100%;
+}
+
+.contact_img {
+  height: 10em;
+  width: 10em;
+}
+
+/*About me*/
+.about_me {
+  flex-direction: row;
+}
+
+.self_img {
+  border-radius: 10em;
+  margin: 10em auto 0 auto;
+  height: 30em;
+  width: 25em;
+}
+
+.info_options {
+  flex-direction: column;
+  font-size: 3em;
+  margin: 1em auto 1em auto;
+}
+
+.about_me_text {
+  font-size: 2em;
+  margin-bottom: 3em;
+}
+
+.contributions {
+  height: 25em;
+  margin-bottom: 3em;
+}
+
+/*Render options*/
+.rendered_page {
+  flex-direction: column;
+}
+
+.render_option {
+  font-size: 3em;
+}
+
+.line {
+  margin: 0 2em 0 2em;
+  width: 5px;
+}
+
+/* Strengths Container*/
+.strengths {
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+  align-items: center;
+}
+
+.div_strength {
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+.underline1 {
+  margin: .5em auto 2em auto;
+  width: 7em;
+}
+
+.underline2 {
+  margin: .5em auto 2em auto;
+  width: 10em;
+}
+
+.strength_image {
+  height: 5em;
+  width: 5em;
+}
+
+/*The Works*/
+.explore_txt {
+  font-size: 2em;
+}
+
+.underline3 {
+  margin: 0 auto 2em auto;
+  width: 18em;
+}
+
+.how_its_done {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto 0 auto;
+}
+
+.project_img {
+  height: 25em;
+  width: 100%;
+}
+
+.code_container {
+  height: 25em;
+}
+
+.code_type {
+  font-size: 2em;
+}
+/*Footer*/
+.footer {
+  height: 7em;
+}

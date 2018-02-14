@@ -1,0 +1,137 @@
+.contact_img {
+  height: 5em;
+  width: 5em;
+}
+
+/*About me*/
+.about_me {
+  flex-direction: row;
+}
+
+.self_img {
+  border-radius: 10em;
+  margin: 4em 4em 0 0;
+  height: 16em;
+  width: 16em;
+}
+
+.info_options {
+  font-size: 1em;
+  margin: 0;
+}
+
+.about_me_text {
+  font-size: 1em;
+  margin: 0;
+}
+
+.contributions {
+  margin-top: 5em;
+  height: 7em;
+}
+
+.about_me {
+  padding: 4em;
+}
+
+.summary {
+  width: 50%;
+}
+
+.info_options {
+  flex-direction: row;
+  margin-bottom: 5em;
+}
+.info_option {
+  padding: .2em 3em .2em 3em;
+}
+
+/*Render options*/
+.render_option {
+  font-size: 1em;
+  padding: .5em 5em .5em 5em;
+}
+
+.rendered_page {
+  flex-direction: column;
+}
+
+/*Rendering pages*/
+.rendering_pages {
+  padding: 4em;
+}
+
+/* Strengths Container*/
+.strengths {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+}
+
+.div_strength {
+  margin-left: 2em;
+  height: 30em;
+}
+
+.strengths_label {
+  font-size: 1.1em;
+}
+
+.underline1 {
+  margin: .5em auto 2em auto;
+  width: 7em;
+}
+
+.underline2 {
+  margin: .5em auto 2em auto;
+  width: 11em;
+}
+
+.strength_image {
+  height: 4em;
+  width: 4em;
+}
+
+/*The Works*/
+.project {
+  display: flex;
+  flex-direction: row;
+  padding: 1em 0 5em 0;
+}
+
+.explore_txt {
+  font-size: 1.1em;
+}
+
+.underline3 {
+  margin: 0 auto 1px auto;
+  width: 10em;
+}
+
+.project_img {
+  height: 24em;
+  width: 50%;
+}
+
+.t_and_cc_container {
+  width: 50%;
+}
+
+.code_container {
+  height: 20.7em;
+}
+
+.code_type {
+  font-size: 1em;
+}
+
+.code {
+  font-size: 1em;
+}
+
+/*Footer*/
+
+.footer {
+  height: 4em;
+}
